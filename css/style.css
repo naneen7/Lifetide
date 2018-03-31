@@ -592,6 +592,69 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-bottom: 10px;
 }
 
+/* Water Festival Section
+--------------------------------*/
+#waterFestival {
+  padding: 60px 0 30px 0;
+}
+
+#waterFestival .waterFestival-img {
+  overflow: hidden;
+}
+
+#waterFestival .waterFestival-img img {
+  margin-left: -15px;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  #waterFestival .waterFestival-img {
+    height: auto;
+  }
+  #waterFestival .waterFestival-img img {
+    margin-left: 0;
+    padding-bottom: 30px;
+  }
+}
+
+#waterFestival .content h2 {
+  color: #0c2e8a;
+  font-weight: 700;
+  font-size: 36px;
+  font-family: "Raleway", sans-serif;
+}
+
+#waterFestival .content h3 {
+  color: #555;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  font-style: italic;
+}
+
+#waterFestival .content p {
+  line-height: 26px;
+}
+
+#waterFestival .content p:last-child {
+  margin-bottom: 0;
+}
+
+#waterFestival .content i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #50d8af;
+}
+
+#waterFestival .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+#waterFestival .content ul li {
+  padding-bottom: 10px;
+}
+
 /* Services Section
 --------------------------------*/
 #services {
