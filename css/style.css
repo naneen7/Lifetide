@@ -532,7 +532,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* About Section
 --------------------------------*/
 #about {
-  padding: 60px 0 30px 0;
+  /*padding:20px 0 30px 0;*/
 }
 
 #about .about-img {
@@ -1057,16 +1057,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-#contact #google-map {
-  height: 290px;
-  margin-bottom: 20px;
-}
-
-@media (max-width: 576px) {
-  #contact #google-map {
-    margin-top: 20px;
-  }
-}
 
 #contact .form #sendmessage {
   color: #50d8af;
